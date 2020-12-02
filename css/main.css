@@ -1,0 +1,184 @@
+@charset 'utf-8';
+
+*{margin: 0; padding: 0;}
+
+/* header */
+    /* 로그인 바*/
+    .logwrap1 {
+        width: 100%; height: 14.7px;
+        position: relative; 
+        top: 5px;
+    }
+    .logwrap2 {
+        width: 420px; 
+        text-align: center;  
+        margin: 0 auto;
+        margin-right: 450px;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    .logwrap2 li{
+        width: 20%; height: 14.7px;
+        float: left;
+        margin: 0 auto;
+        margin-left: -10px;
+        list-style: none;
+        font-size: 12px; color: #858585; font-family: noto sans KR;
+    }
+    .logwrap2 img {
+        width: 0.2px; height: 8px;
+        float: left;
+        margin-top: 5px; margin-left: -6px;
+    }
+    #login_bar1 { _margin-left: 10px; }
+    #login_bar2 {}
+    #login_bar3 {}
+    #login_bar4 {}
+    .logwrap2 a img {width: 15px; height: 15px;  margin-top: 2px;  margin-left: 10px;}
+.logwrap2 a {padding-left: 5px;}
+
+
+
+/* 메인 로고 */
+    .logo {
+        width: 172px; height: 119px;
+        margin: 0 auto; 
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .main_img {
+        width: 1484px; 
+        margin: 0 auto;
+    }
+    /* 메인 방향키 */
+    #left {width: 30px; height: 73px; position: absolute; left: 450px; top: 570px;}
+    #right {width: 30px; height: 73px; position: absolute; right: 452px; top: 570px;}
+
+    .topmenu {
+        width: 1484px; margin: 0 auto; text-align: center;
+        border-top: 1px solid #9f9f9f;
+        padding-top: 10px; 
+    }
+    #top {width: 479px; overflow: hidden; margin: 0 auto; font-family: Nunito Sans;}
+    .topmenu li { width: 20%; float: left; padding-bottom: 10px;}
+
+    #top li a {
+        width: 1484px; height: 14px;  
+        margin-top: 10px; margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+
+              
+
+
+/* section */
+.new {
+    width: 1484px; 
+    margin: 0 auto; 
+    border-top: 3px solid #8f8f8f;
+    margin-top: 272px;
+    overflow: hidden;
+}
+.newwrap {border-top: 1px solid #8f8f8f; margin-top: 8px; text-align: center; }
+    #new1 img {width: 315.6px; height: 315px; margin-top: 48px; margin-right: 20px; float: left;}
+    #new2 img {width: 401.6px; height: 401px; float: left;}
+    #new3 img {width: 400.6px; height: 400px; margin-top: 55px; margin-right: 8px; float: left;}
+    #new4 img {width: 260px; height: 260px; margin-top: 85px; margin-left: 5px;}
+
+.n_button {width: 1484px; top: 1770.9px; border-top: 1px solid #8f8f8f; margin-top: 65px;}
+    #n_a {width: 419.8px; float: left; font-size: 40px; color: #5e5e5e;}
+    #new_go {width: 17.2px; margin-top: 20px; margin-left: -130px; float: left;}
+
+
+/* nav- best */
+.best {
+    width: 1484px; 
+    margin: 0 auto;
+    
+}
+/*.bestwrap {_margin: 0 auto; }*/
+    #best1 {width: 400px; height: 400px; float: left; margin-top: 280px; margin-left: 118px;}
+    #best2 {width: 600px; height: 600px; float: left; margin-top: 110px; margin-left: -77px;}
+    #best3 {width: 400px; height: 400px; float: left; margin-top: 270px; margin-left: -70px;}
+.b {width: 1200px; margin: 0 auto;}
+#b_i {float: left; text-align: center; font-size: 40px; color: #5e5e5e; width: 1210px;  border-top: 1px solid #8f8f8f; padding: 45px; margin: 0 auto; margin-bottom: 250px;}
+
+
+
+/* nav - page */
+.page {width: 1927px; margin-left: 440px; overflow: hidden;}
+.page p {
+    color: #edecec; font-size: 50px; font-family: Noto Sans KR; 
+    _font-weight: bold;
+}
+    #m {margin-top: -85px; padding-left: 475px;}
+    #c {margin-top: -85px; padding-left: 240px;}
+    #p {margin-top: -75px; padding-left: 225px;}
+    #a {margin-top: -85px; padding-left: 500px;}
+#modern {width: 59.5%; _height: 574px; float: left;}
+#cozy {width: 573px; height: 572px; float: left; margin-left: 13px;}
+/*.moco {height: 572px;}*/
+
+#point {width: 562.4px; _height: 949px; float: left; margin-top: 10px;}
+#point p {margin-top: -85px;}
+#artistic {width: 60%; height: 1250px; float: left; margin-left: 13px; margin-top: 10px;}
+#artistic p {margin-top: -88px;}
+.poar {height: 100%;}
+
+
+/* footer */
+.footer {
+    width: 1083px; height: 380px;
+    border: 1px solid #8f8f8f;
+    margin: 0 auto;
+    margin-top: -150px;
+    margin-bottom: 50px;
+    font-family: Noto Sans KR sans-serif;
+}
+.footer p {font-size: 12px; color: #878787; font-family: Noto Sans KR; font-weight: 290; line-height: 24px;}
+.footer h3 {font-size: 17px; color: #645d59;}
+
+.info {float: left; border-right: 1px solid #8f8f8f; width: 361px; height: 379.3px; padding-top: 120px; padding-left: 100px;}
+.info h2 {color: #a24117; opacity: 0.8; padding-bottom: 15px;}
+.info p {}
+
+.shop {
+    float: left; border-right: 1px solid #8f8f8f; width: 361px; height: 390px;
+    width: 361px; height: 295px; padding-top: 34px;
+    padding-left: 115px;
+}
+.shop h2 {color: #a24117; opacity: 0.9; font-size: 14px;padding-bottom: 10px;}
+#dosan {margin-top: 30px;}
+
+.customer {
+    float: left; width: 361px; height: 280px; margin-top: -200px; float: right; padding-left: 110px;
+}
+.customer h2 {color: #a24117; opacity: 0.8; font-size: 16px; margin-bottom: 15px;}
+.copy {float: right; border-top: 1px solid #8f8f8f; width: 721px; margin-top: -85px; padding-top: 15px; padding-left: 270px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
